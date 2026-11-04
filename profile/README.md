@@ -20,6 +20,38 @@ container, installs on your phone from the browser, and needs no account on anyo
 | <img src="https://raw.githubusercontent.com/selfhostit/flowy/main/web/public/icons/icon.svg" width="56" alt=""> | **[Flowy](https://github.com/selfhostit/flowy)** | A private period and cycle tracker: predictions, a day log, insights and reminders, with Mochi the cat. |
 | <img src="https://raw.githubusercontent.com/selfhostit/troye/main/web/public/icons/icon.svg" width="56" alt=""> | **[Troye](https://github.com/selfhostit/troye)** | A private calorie and weight tracker. Food photos are read by a vision model on your own GPU. *Work in progress.* |
 
+## Get started
+
+**Install: one line, every app.** You need a little computer that runs Linux\* and a
+terminal on it (or SSH). Then:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/selfhostit/docs/main/install.sh | sh
+```
+
+<img src="https://raw.githubusercontent.com/selfhostit/.github/main/profile/comic/install.svg" width="100%" alt="Three panels: find an old laptop or a Raspberry Pi, paste one line in a terminal and pick your apps, then open every app in a browser at home.">
+
+The installer sets up Docker if it's missing, asks which apps you want, and starts them.
+Run the same line again to update; your settings and data are kept.
+[Step by step for a Pi or Linux](https://github.com/selfhostit/docs/blob/main/linux.md),
+or for a [Synology](https://github.com/selfhostit/docs/blob/main/synology.md) or
+[another NAS](https://github.com/selfhostit/docs/blob/main/other-nas.md).
+
+**Optional: on your phones, at home and away.** Phones only install a web app and show its
+notifications over `https://`, and that's the same for every app. The installer can give all
+your apps `https://` addresses with [Tailscale](https://tailscale.com), a free private network
+that only your own devices can reach. There is nothing to install on the server, because the
+installer runs Tailscale for you; you sign in once, and each phone gets the Tailscale app.
+
+<img src="https://raw.githubusercontent.com/selfhostit/.github/main/profile/comic/phones.svg" width="100%" alt="Three panels: say yes to Tailscale in the installer and open its sign-in link, install the Tailscale app on each phone with the same account, then open each app's https address and add it to the home screen.">
+
+Already have a domain? Use [a reverse proxy](https://github.com/selfhostit/docs/blob/main/phones.md#your-own-domain-with-a-reverse-proxy) instead of Tailscale.
+
+<sub>\* [What you need](https://github.com/selfhostit/docs#what-you-need): anything that runs
+Docker on amd64, arm64 or armv7, such as an old laptop, a mini PC, a NAS with a Docker app or
+a Raspberry Pi 3 or newer (64-bit Raspberry Pi OS is best), with about 128 to 512 MB of memory
+per app.</sub>
+
 ## Build your own: plasto
 
 <img align="right" src="https://raw.githubusercontent.com/selfhostit/plasto/main/web/public/icons/icon.svg" width="88" alt="">
