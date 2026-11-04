@@ -19,7 +19,8 @@ container, installs on your phone from the browser, and needs no account on anyo
 | <img src="https://raw.githubusercontent.com/selfhostit/should-we/main/docs/assets/logo.png" width="56" alt=""> | **[should-we](https://github.com/selfhostit/should-we)** | Pick one option together. Everyone weighs what matters to them and rates each option, and you get one ranking. |
 | <img src="https://raw.githubusercontent.com/selfhostit/flowy/main/web/public/icons/icon.svg" width="56" alt=""> | **[Flowy](https://github.com/selfhostit/flowy)** | A private period and cycle tracker: predictions, a day log, insights and reminders, with Mochi the cat. |
 | <img src="https://raw.githubusercontent.com/selfhostit/troye/main/web/public/icons/icon.svg" width="56" alt=""> | **[Troye](https://github.com/selfhostit/troye)** | A private calorie and weight tracker. Food photos are read by a vision model on your own GPU. *Work in progress.* |
-| <img src="https://raw.githubusercontent.com/selfhostit/shoppa/main/docs/logo.png" width="56" alt=""> | **[Shoppa](https://github.com/selfhostit/shoppa)** | A shared shopping list for your household, with the exact product and its photo from Open Food Facts, or a barcode scan. Works offline in the shop. *Work in progress.* |
+| <img src="https://raw.githubusercontent.com/selfhostit/shoppa/main/docs/logo.png" width="56" alt=""> | **[Shoppa](https://github.com/selfhostit/shoppa)** | A shared shopping list for your household, with the exact product and its photo from Open Food Facts, or a barcode scan. Works offline in the shop. *Work in progress.* |  
+| <img src="https://raw.githubusercontent.com/selfhostit/calio/main/web/public/icons/icon.svg" width="56" alt=""> | **[Calio](https://github.com/selfhostit/calio)** | Your household on one calendar: plans, pet sitting and trips. See who is sitting the pets and whether they're booked, and subscribe from Apple, Google or Outlook Calendar. *Work in progress.* |  
 
 ## Get started
 
