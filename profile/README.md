@@ -53,6 +53,16 @@ Docker on amd64, arm64 or armv7, such as an old laptop, a mini PC, a NAS with a 
 a Raspberry Pi 3 or newer (64-bit Raspberry Pi OS is best), with about 128 to 512 MB of memory
 per app.</sub>
 
+## Security and privacy
+
+Your data stays on your machine, in one folder per app; there is no selfhostit cloud and no
+tracking. The apps listen on `127.0.0.1` only and are reached through Tailscale or your own
+reverse proxy, run in locked-down containers, and ask for a one-time setup code on a fresh
+install. [Security and privacy](https://github.com/selfhostit/docs/blob/main/security.md)
+says what is done, what you are trusting and what is not done yet. Prefer to read the
+installer before running it? [Here's how](https://github.com/selfhostit/docs/blob/main/security.md#read-the-installer-before-you-run-it).
+Found a problem? See the [security policy](https://github.com/selfhostit/.github/blob/main/SECURITY.md).
+
 ## Build your own: plasto
 
 <img align="right" src="https://raw.githubusercontent.com/selfhostit/plasto/main/web/public/icons/icon.svg" width="88" alt="">
