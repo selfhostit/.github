@@ -22,32 +22,35 @@ container, installs on your phone from the browser, and needs no account on anyo
 
 ## Get started
 
-<img src="https://raw.githubusercontent.com/selfhostit/.github/main/profile/comic/getting-started.svg" width="100%" alt="A six-panel stick-figure comic: find an old laptop or a Raspberry Pi, put Linux on it and plug it in, paste one line, pick your apps, tap one link, and use the apps on your phone while your data stays home.">
+**Install: one line, every app.** You need a little computer that runs Linux\* and a
+terminal on it (or SSH). Then:
 
-1. **Find a little computer\*.** An old laptop in a drawer, a mini PC, a Raspberry Pi 3 or
-   newer, or a NAS that runs Docker. It just has to stay on.
-2. **Give it Linux and plug it in.** On a Pi, [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
-   does this in a few clicks ([step by step](https://github.com/selfhostit/docs/blob/main/linux.md)).
-3. **Paste one line** in a terminal on it, or over SSH:
+```sh
+curl -fsSL https://raw.githubusercontent.com/selfhostit/docs/main/install.sh | sh
+```
 
-   ```sh
-   curl -fsSL https://raw.githubusercontent.com/selfhostit/docs/main/install.sh | sh
-   ```
+<img src="https://raw.githubusercontent.com/selfhostit/.github/main/profile/comic/install.svg" width="100%" alt="Three panels: find an old laptop or a Raspberry Pi, paste one line in a terminal and pick your apps, then open every app in a browser at home.">
 
-4. **Pick your apps.** The installer sets up Docker if it's missing and asks a few questions;
-   pressing Enter keeps the suggested answer.
-5. **Tap one link** to sign in to [Tailscale](https://tailscale.com) (free), so your phones
-   reach the apps over `https://` from anywhere, and only yours can.
-6. **Open the apps on your phone** and add them to your home screen. Your data stays home.
+The installer sets up Docker if it's missing, asks which apps you want, and starts them.
+Run the same line again to update; your settings and data are kept.
+[Step by step for a Pi or Linux](https://github.com/selfhostit/docs/blob/main/linux.md),
+or for a [Synology](https://github.com/selfhostit/docs/blob/main/synology.md) or
+[another NAS](https://github.com/selfhostit/docs/blob/main/other-nas.md).
 
-Is it one click? Not quite: one line to paste and one link to tap. Run the same line again
-to update; your settings and data are kept. On a NAS, see the
-[Synology](https://github.com/selfhostit/docs/blob/main/synology.md) and
-[other NAS](https://github.com/selfhostit/docs/blob/main/other-nas.md) guides.
+**Optional: on your phones, at home and away.** Phones only install a web app and show its
+notifications over `https://`, and that's the same for every app. The installer can give all
+your apps `https://` addresses with [Tailscale](https://tailscale.com), a free private network
+that only your own devices can reach. There is nothing to install on the server, because the
+installer runs Tailscale for you; you sign in once, and each phone gets the Tailscale app.
+
+<img src="https://raw.githubusercontent.com/selfhostit/.github/main/profile/comic/phones.svg" width="100%" alt="Three panels: say yes to Tailscale in the installer and open its sign-in link, install the Tailscale app on each phone with the same account, then open each app's https address and add it to the home screen.">
+
+Already have a domain? Use [a reverse proxy](https://github.com/selfhostit/docs/blob/main/phones.md#your-own-domain-with-a-reverse-proxy) instead of Tailscale.
 
 <sub>\* [What you need](https://github.com/selfhostit/docs#what-you-need): anything that runs
-Docker on amd64, arm64 or armv7 (a Raspberry Pi 3 or newer, 64-bit Raspberry Pi OS is
-best), with about 128 to 512 MB of memory per app.</sub>
+Docker on amd64, arm64 or armv7, such as an old laptop, a mini PC, a NAS with a Docker app or
+a Raspberry Pi 3 or newer (64-bit Raspberry Pi OS is best), with about 128 to 512 MB of memory
+per app.</sub>
 
 ## Build your own: plasto
 
