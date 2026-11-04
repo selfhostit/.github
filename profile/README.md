@@ -20,6 +20,35 @@ container, installs on your phone from the browser, and needs no account on anyo
 | <img src="https://raw.githubusercontent.com/selfhostit/flowy/main/web/public/icons/icon.svg" width="56" alt=""> | **[Flowy](https://github.com/selfhostit/flowy)** | A private period and cycle tracker: predictions, a day log, insights and reminders, with Mochi the cat. |
 | <img src="https://raw.githubusercontent.com/selfhostit/troye/main/web/public/icons/icon.svg" width="56" alt=""> | **[Troye](https://github.com/selfhostit/troye)** | A private calorie and weight tracker. Food photos are read by a vision model on your own GPU. *Work in progress.* |
 
+## Get started
+
+<img src="https://raw.githubusercontent.com/selfhostit/.github/main/profile/comic/getting-started.svg" width="100%" alt="A six-panel stick-figure comic: find an old laptop or a Raspberry Pi, put Linux on it and plug it in, paste one line, pick your apps, tap one link, and use the apps on your phone while your data stays home.">
+
+1. **Find a little computer\*.** An old laptop in a drawer, a mini PC, a Raspberry Pi 3 or
+   newer, or a NAS that runs Docker. It just has to stay on.
+2. **Give it Linux and plug it in.** On a Pi, [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+   does this in a few clicks ([step by step](https://github.com/selfhostit/docs/blob/main/linux.md)).
+3. **Paste one line** in a terminal on it, or over SSH:
+
+   ```sh
+   curl -fsSL https://raw.githubusercontent.com/selfhostit/docs/main/install.sh | sh
+   ```
+
+4. **Pick your apps.** The installer sets up Docker if it's missing and asks a few questions;
+   pressing Enter keeps the suggested answer.
+5. **Tap one link** to sign in to [Tailscale](https://tailscale.com) (free), so your phones
+   reach the apps over `https://` from anywhere, and only yours can.
+6. **Open the apps on your phone** and add them to your home screen. Your data stays home.
+
+Is it one click? Not quite: one line to paste and one link to tap. Run the same line again
+to update; your settings and data are kept. On a NAS, see the
+[Synology](https://github.com/selfhostit/docs/blob/main/synology.md) and
+[other NAS](https://github.com/selfhostit/docs/blob/main/other-nas.md) guides.
+
+<sub>\* [What you need](https://github.com/selfhostit/docs#what-you-need): anything that runs
+Docker on amd64, arm64 or armv7 (a Raspberry Pi 3 or newer, 64-bit Raspberry Pi OS is
+best), with about 128 to 512 MB of memory per app.</sub>
+
 ## Build your own: plasto
 
 <img align="right" src="https://raw.githubusercontent.com/selfhostit/plasto/main/web/public/icons/icon.svg" width="88" alt="">
