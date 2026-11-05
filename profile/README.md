@@ -18,8 +18,9 @@ container, installs on your phone from the browser, and needs no account on anyo
 | <img src="https://raw.githubusercontent.com/selfhostit/splitwiz/main/docs/logo.png" width="56" alt=""> | **[Splitwiz](https://github.com/selfhostit/splitwiz)** | Split shared costs with your partner or roommate. A self-hosted Splitwise for two, with CSV import. |
 | <img src="https://raw.githubusercontent.com/selfhostit/should-we/main/docs/assets/logo.png" width="56" alt=""> | **[should-we](https://github.com/selfhostit/should-we)** | Pick one option together. Everyone weighs what matters to them and rates each option, and you get one ranking. |
 | <img src="https://raw.githubusercontent.com/selfhostit/flowy/main/web/public/icons/icon.svg" width="56" alt=""> | **[Flowy](https://github.com/selfhostit/flowy)** | A private period and cycle tracker: predictions, a day log, insights and reminders, with Mochi the cat. |
-| <img src="https://raw.githubusercontent.com/selfhostit/troye/main/web/public/icons/icon.svg" width="56" alt=""> | **[Troye](https://github.com/selfhostit/troye)** | A private calorie and weight tracker. Food photos are read by a vision model on your own GPU. *Work in progress.* |
-| | Shoppa | A shared shopping list for your household, with the exact product and its photo from Open Food Facts, or a barcode scan. Works offline in the shop. Work in progress. |
+| <img src="https://raw.githubusercontent.com/selfhostit/troye/main/web/public/icons/icon.svg" width="56" alt=""> | **[Troye](https://github.com/selfhostit/troye)** | A private calorie and weight tracker. Food photos are read by a vision model on your own GPU. |
+| <img src="https://raw.githubusercontent.com/selfhostit/shoppa/main/docs/logo.png" width="56" alt=""> | **[Shoppa](https://github.com/selfhostit/shoppa)** | A shared shopping list for your household, with the exact product and its photo from Open Food Facts, or a barcode scan. Works offline in the shop. |  
+| <img src="https://raw.githubusercontent.com/selfhostit/calio/main/web/public/icons/icon.svg" width="56" alt=""> | **[Calio](https://github.com/selfhostit/calio)** | Your household on one calendar: plans, pet sitting and trips. See who is sitting the pets and whether they're booked, and subscribe from Apple, Google or Outlook Calendar. |  
 
 ## Get started
 
@@ -52,6 +53,16 @@ Already have a domain? Use [a reverse proxy](https://github.com/selfhostit/docs/
 Docker on amd64, arm64 or armv7, such as an old laptop, a mini PC, a NAS with a Docker app or
 a Raspberry Pi 3 or newer (64-bit Raspberry Pi OS is best), with about 128 to 512 MB of memory
 per app.</sub>
+
+## Security and privacy
+
+Your data stays on your machine, in one folder per app; there is no selfhostit cloud and no
+tracking. The apps listen on `127.0.0.1` only and are reached through Tailscale or your own
+reverse proxy, run in locked-down containers, and ask for a one-time setup code on a fresh
+install. [Security and privacy](https://github.com/selfhostit/docs/blob/main/security.md)
+says what is done, what you are trusting and what is not done yet. Prefer to read the
+installer before running it? [Here's how](https://github.com/selfhostit/docs/blob/main/security.md#read-the-installer-before-you-run-it).
+Found a problem? See the [security policy](https://github.com/selfhostit/.github/blob/main/SECURITY.md).
 
 ## Build your own: plasto
 
