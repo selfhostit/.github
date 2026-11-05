@@ -28,7 +28,7 @@ container, installs on your phone from the browser, and needs no account on anyo
 terminal on it (or SSH). Then:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/selfhostit/docs/main/install.sh | sh
+curl -fsSL https://github.com/selfhostit/docs/releases/latest/download/install.sh | sh
 ```
 
 <img src="https://raw.githubusercontent.com/selfhostit/.github/main/profile/comic/install.svg" width="100%" alt="Three panels: find an old laptop or a Raspberry Pi, paste one line in a terminal and pick your apps, then open every app in a browser at home.">
