@@ -61,7 +61,7 @@ tracking. The apps listen on `127.0.0.1` only and are reached through Tailscale 
 reverse proxy, run in locked-down containers, and ask for a one-time setup code on a fresh
 install. [Security and privacy](https://github.com/selfhostit/docs/blob/main/security.md)
 says what is done, what you are trusting and what is not done yet. Prefer to read the
-installer before running it? [Here's how](https://github.com/selfhostit/docs/blob/main/security.md#read-the-installer-before-you-run-it).
+installer before running it? [Here's how](https://github.com/selfhostit/docs/blob/main/security.md#read-and-check-the-installer-before-you-run-it).
 Found a problem? See the [security policy](https://github.com/selfhostit/.github/blob/main/SECURITY.md).
 
 ## Build your own: plasto
