@@ -3,7 +3,7 @@
 # selfhostit
 
 **Small apps you run on your own hardware.**<br>
-Your data stays home, on a NAS, a Raspberry Pi or a cheap server. Each app is one small
+Your data stays home, on a NAS, a Raspberry Pi or an old laptop. Each app is one small
 container, installs on your phone from the browser, and needs no account on anyone's cloud.
 
 [![Start an app with plasto](https://img.shields.io/badge/Start_an_app_with_plasto-2ea44f?style=for-the-badge&logo=github)](https://github.com/selfhostit/plasto/generate)
@@ -24,8 +24,13 @@ container, installs on your phone from the browser, and needs no account on anyo
 
 ## Get started
 
-**1. Install the apps you want.** You need a little computer that runs Linux\* and a
-terminal on it (or SSH). Then:
+**Before you start**, plan about 30 minutes. You need a machine that stays on, a computer
+with a terminal, and, for the apps on your phones, a [Tailscale](https://github.com/selfhostit/docs/blob/main/words.md#tailscale) account and the free
+Tailscale app on each phone. See the [full list](https://github.com/selfhostit/docs/blob/main/README.md#before-you-start). New to this?
+Words like Docker, SSH or Tailscale are explained in [Words you'll meet](https://github.com/selfhostit/docs/blob/main/words.md).
+
+**1. Install the apps you want.** You need [a little computer that runs Linux](https://github.com/selfhostit/docs/blob/main/machine.md)\*
+and [a terminal on it (or SSH)](https://github.com/selfhostit/docs/blob/main/terminal.md). Then:
 
 ```sh
 curl -fsSL https://github.com/selfhostit/docs/releases/latest/download/install.sh | sh
