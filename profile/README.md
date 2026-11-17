@@ -21,6 +21,7 @@ container, installs on your phone from the browser, and needs no account on anyo
 | <img src="https://raw.githubusercontent.com/selfhostit/troye/main/web/public/icons/icon.svg" width="56" alt=""> | **[Troye](https://github.com/selfhostit/troye)** | A private calorie and weight tracker. Food photos are read by a vision model on your own GPU. |
 | <img src="https://raw.githubusercontent.com/selfhostit/shoppa/main/docs/logo.png" width="56" alt=""> | **[Shoppa](https://github.com/selfhostit/shoppa)** | A shared shopping list for your household, with the exact product and its photo from Open Food Facts, or a barcode scan. Works offline in the shop. |  
 | <img src="https://raw.githubusercontent.com/selfhostit/calio/main/web/public/icons/icon.svg" width="56" alt=""> | **[Calio](https://github.com/selfhostit/calio)** | Your household on one calendar: plans, pet sitting and trips. See who is sitting the pets and whether they're booked, and subscribe from Apple, Google or Outlook Calendar. |  
+| <img src="https://raw.githubusercontent.com/selfhostit/reckon/main/web/public/icons/icon.svg" width="56" alt=""> | **[Reckon](https://github.com/selfhostit/reckon)** | Practise the numerical reasoning tests used in job applications: endless series, grids and figures at nine levels, hints and step-by-step solutions in plain words, and adaptive mock tests scored from 1 to 9. |  
 
 ## Get started
 
